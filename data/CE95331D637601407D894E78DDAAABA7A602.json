@@ -1,0 +1,23 @@
+{
+    "uid": "CE95331D637601407D894E78DDAAABA7A602",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Clock",
+        "type": "data_record",
+        "category": "commonEvents",
+        "isFolder": true,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Clock",
+            "isFolder": true
+        },
+        "order": 2
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

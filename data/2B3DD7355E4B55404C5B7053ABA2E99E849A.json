@@ -1,0 +1,26 @@
+{
+    "uid": "2B3DD7355E4B55404C5B7053ABA2E99E849A",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Time system (24hr & 60 min)",
+        "type": "vn.chapter",
+        "order": 4,
+        "commands": [
+            {
+                "id": "vn.Chapter",
+                "params": {
+                    "name": "Time system (24hr & 60 min)",
+                    "description": ""
+                },
+                "indent": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

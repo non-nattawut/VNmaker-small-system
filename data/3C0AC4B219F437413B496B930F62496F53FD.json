@@ -1,0 +1,26 @@
+{
+    "uid": "3C0AC4B219F437413B496B930F62496F53FD",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Class Score Check",
+        "type": "vn.chapter",
+        "order": 2,
+        "commands": [
+            {
+                "id": "vn.Chapter",
+                "params": {
+                    "name": "Class Score Check",
+                    "description": ""
+                },
+                "indent": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

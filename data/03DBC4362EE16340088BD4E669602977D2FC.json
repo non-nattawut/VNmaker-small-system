@@ -1,0 +1,815 @@
+{
+    "uid": "03DBC4362EE16340088BD4E669602977D2FC",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "type": "vn.scene",
+        "name": "test common event time check",
+        "parentId": "33F2BB319DDDF24DD85BE8A408D6518E1226",
+        "localizableStrings": {},
+        "chapterUid": "33F2BB319DDDF24DD85BE8A408D6518E1226",
+        "commands": [
+            {
+                "id": "vn.CallScene",
+                "params": {
+                    "scene": {
+                        "uid": "B71F5C887604E34AF78812A2F81FA6D283BB",
+                        "name": "score variable set to 0"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "BFD7856C59261645214A64B49BFE2C078749"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Time",
+                        "index": 6,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 1,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "name": "Sing",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 0,
+                    "source": 0,
+                    "sourceValue": 4,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "41D0AF0569E2F5455C39D4E59E37DF7FEB84",
+                "expanded": false
+            },
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 8,
+                    "positionType": 1,
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Score Table\nSing {GN:0001}\nDance {GN:0002}\nRap {GN:0003}"
+                    },
+                    "position": {
+                        "x": 250,
+                        "y": 550
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 0
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "916353FB7DCDD945674997B36470EC31A4E1",
+                "expanded": false
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "start"
+                },
+                "indent": 0,
+                "uid": "14CF45E682494349126AA774374143508172"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "5FDD1950K9FA1A4BCCSB00CEE54C8BC8AE54",
+                    "parameters": {
+                        "values": [
+                            -999999999
+                        ]
+                    }
+                },
+                "indent": 0,
+                "uid": "24D5A0FD9C4F364C26188315733F3CA2BE07"
+            },
+            {
+                "id": "gs.Comment",
+                "params": {
+                    "text": "ตรง call time check ถ้าเกิดเป็น code reuse เอาไปใส่ใน common event ดีกว่า จะได้ไม่ไปยุ่งกับตรงแท็บ Scene แต่ว่าก็ทำในแท็บ Scene ก่อนได้เอาไว้เทสได้ง่ายๆ"
+                },
+                "indent": 0,
+                "uid": "CA10F53F5B40934FB038FB367528443D5B3A",
+                "expanded": true
+            },
+            {
+                "id": "gs.RefreshText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0
+                },
+                "indent": 0,
+                "uid": "55042A7F8946B24BDA79FC86778A6D031EE6"
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "Time",
+                        "index": 6,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 0,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 1,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "3D05516A648F8449324849A2473ACF04A96F"
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "Sing",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Sing"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
+                },
+                "indent": 1,
+                "uid": "7BCA71CA6D39E64723183E83FF88AF85797C"
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "Dance",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Dance"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
+                },
+                "indent": 1,
+                "uid": "6ABCF7BD84CEA34A0C48D7F57B77F793E580"
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "Rap",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Rap"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
+                },
+                "indent": 1,
+                "uid": "E050B3EA4812904E145832B7271F39F5A297"
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "Sleep",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Sleep"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
+                },
+                "indent": 0,
+                "uid": "81B623CA6F4CC2430F482EA0A0A42A9F443E"
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "indent": 0,
+                "uid": "5D60087C288A6343D77BD1B46C35BAAAF6BF"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "Sing"
+                },
+                "indent": 0,
+                "uid": "90A84BD45B240347BC4AAF3755BDDD11E9EF"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetScope": 1,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "name": "Sing",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 1,
+                    "source": 0,
+                    "sourceValue": 1,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "5C9853D486159245CA1A6BF427ADAC004231",
+                "expanded": false
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Time",
+                        "index": 6,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 1,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "name": "Sing",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 2,
+                    "source": 0,
+                    "sourceValue": 1,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "FF6BA5CF4E43124FB8087823F1548588A1AE",
+                "expanded": false
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "start",
+                    "target": "activeContext"
+                },
+                "indent": 0,
+                "uid": "7082312A345CB241B24919912A3061FF3232"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "Dance"
+                },
+                "indent": 0,
+                "uid": "B5C3450B3532B448F93BB3F7460F68B2C4C2"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Dance",
+                        "scope": 1,
+                        "index": 1,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 1,
+                    "source": 0,
+                    "sourceValue": 1,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "56A8992A6E953148301A1655FE8AC28D295B"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Time",
+                        "index": 6,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 1,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "name": "Sing",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 2,
+                    "source": 0,
+                    "sourceValue": 1,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "C095F8892F3B824D65887CA869EFC918BAEE",
+                "expanded": false
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "start",
+                    "target": "activeContext"
+                },
+                "indent": 0,
+                "uid": "CE441965687FF34B9438E5B88256F6CD0739"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "Rap"
+                },
+                "indent": 0,
+                "uid": "EFBF7D22068416444318C693AAA75D7FEC4A"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Rap",
+                        "index": 2,
+                        "scope": 1,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 1,
+                    "source": 0,
+                    "sourceValue": 1,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "22EC5A27734F4341976A1E347900843AACD5"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Time",
+                        "index": 6,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 1,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "name": "Sing",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 2,
+                    "source": 0,
+                    "sourceValue": 1,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "4AE764BC949D7940C8991A74C99CFC09F1AA",
+                "expanded": false
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "start",
+                    "target": "activeContext"
+                },
+                "indent": 0,
+                "uid": "EAC3072319EBA241EA7B9FA707D5294D14AB"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "Sleep"
+                },
+                "indent": 0,
+                "uid": "CDBBEA4E53F81840603BCB85DB506C7DE286"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Time",
+                        "index": 6,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 1,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "name": "Sing",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 0,
+                    "source": 0,
+                    "sourceValue": 4,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "F9FA16168B1B974F354B4C851C193A151AB1",
+                "expanded": false
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "start",
+                    "target": "activeContext"
+                },
+                "indent": 0,
+                "uid": "41F5C93558B7044A252923F16EF957D34577"
+            }
+        ],
+        "livePreviewDisabled": false,
+        "order": 2,
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "listVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "o",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

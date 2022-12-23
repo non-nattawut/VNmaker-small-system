@@ -1,0 +1,130 @@
+{
+    "uid": "1C93FF831BF53847DF59A0180FD1546F9AA4",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Modify Emma Relation",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "1C93FF831BF53847DF59A0180FD1546F9AA4",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Modify Emma Relation",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [
+                {
+                    "label": "Value",
+                    "type": 1,
+                    "numberVariable": {
+                        "name": "Emma (parameter)",
+                        "index": 24,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValueType": "number",
+                    "stringValueLocalizable": true
+                }
+            ],
+            "commands": [
+                {
+                    "id": "gs.ChangeDecimalVariables",
+                    "params": {
+                        "roundMethod": 0,
+                        "target": 0,
+                        "targetVariable": {
+                            "name": "Emma",
+                            "index": 20,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetScope": 0,
+                        "targetRange": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "operation": 1,
+                        "source": 0,
+                        "sourceValue": {
+                            "name": "Emma (parameter)",
+                            "index": 24,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "sourceRandom": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "sourceScope": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "sourceReferenceDomain": "com.degica.vnm.default",
+                        "sourceReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "expanded": false
+                }
+            ],
+            "index": "1C93FF831BF53847DF59A0180FD1546F9AA4",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "listVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "order": 2
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

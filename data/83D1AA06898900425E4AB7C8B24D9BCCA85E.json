@@ -1,0 +1,765 @@
+{
+    "uid": "83D1AA06898900425E4AB7C8B24D9BCCA85E",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "_main",
+        "type": "vn.scene",
+        "parentId": "9552A75922A1294C125B6900D1100CBED704",
+        "chapterUid": "9552A75922A1294C125B6900D1100CBED704",
+        "order": 0,
+        "commands": [
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "ApartmentOutside_Night.png",
+                        "folderPath": "Graphics/Backgrounds/Home",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "predefinedPositionId": 0,
+                    "positionType": 0,
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "{GN:Emma}"
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "57A2C8EA4262C74BE28B8AE21834FB2E63AB",
+                "expanded": false
+            },
+            {
+                "id": "vn.CharacterJoinScene",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 8,
+                    "expressionId": null,
+                    "characterId": "4A7D5EC17353564C3E39DA52EBDE615E4D0B",
+                    "zOrder": 0,
+                    "origin": 0,
+                    "blendMode": 0,
+                    "positionType": 1,
+                    "motionBlur": {
+                        "enabled": 0,
+                        "delay": 2,
+                        "opacity": 100,
+                        "dissolveSpeed": 3
+                    },
+                    "position": {
+                        "x": 392,
+                        "y": 160,
+                        "angle": 0,
+                        "zoom": 1,
+                        "horizontalFlip": false,
+                        "data": {},
+                        "color": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "alpha": 0
+                        }
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 0
+                    },
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "previewBackground": {
+                        "name": "",
+                        "folderPath": ""
+                    }
+                },
+                "indent": 0,
+                "uid": "8C32AFC2265BA8494D4A5455F57D45C59092"
+            },
+            {
+                "id": "vn.MessageBoxVisibility",
+                "params": {
+                    "duration": 30,
+                    "waitForCompletion": true,
+                    "id": "messageBox",
+                    "visible": 1,
+                    "animation": {
+                        "type": 0,
+                        "movement": 3,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "indent": 0,
+                "uid": "215DB85B8176F245755AF6E55A39E3D1D8BD"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": ":D"
+                    },
+                    "position": 0,
+                    "characterId": "4A7D5EC17353564C3E39DA52EBDE615E4D0B",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "D5E8C9184F384441695BE463326E45F30CA5",
+                "expanded": true
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "end"
+                },
+                "indent": 0,
+                "uid": "9C7988C9221B99420019EE493A86FAAAC9FB"
+            },
+            {
+                "id": "gs.RefreshText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0
+                },
+                "indent": 0,
+                "uid": "CC4D65B756771840C98AC7B964E81F28CF2E"
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "เพิ่ม",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "เพิ่ม"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
+                },
+                "indent": 0,
+                "uid": "0A78CA035873334A843BB350AE7AED4BC908"
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "ไม่แสดงผล",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "ไม่แสดงผล"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
+                },
+                "indent": 0,
+                "uid": "64BC5F978CACA3437C5A7F89D0B8F07ECBBC"
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "ลด",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "ลด"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
+                },
+                "indent": 0,
+                "uid": "BF63E0DB1A15054E374AD957B63A62D24B3C"
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "Emma",
+                        "index": 20,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 50,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 3,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "CBEC4D095C13F14DF58B1CB2F5644C858537"
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "ปลดล็อก",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "ปลดล็อก"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
+                },
+                "indent": 1,
+                "uid": "5A0D67F4850E22470909DE4753B336C5D321"
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "indent": 0,
+                "uid": "F864663085CD9544E7898702F0FBBD828542"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "เพิ่ม"
+                },
+                "indent": 0,
+                "uid": "C852D81263CAB446C569D04935F9F3F7E1C5"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Emma",
+                        "index": 20,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 1,
+                    "source": 0,
+                    "sourceValue": 10,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "7BE926BB434FC94D4F190788889C3DB4B9CD"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "เพิ่ม"
+                    },
+                    "position": 0,
+                    "characterId": "4A7D5EC17353564C3E39DA52EBDE615E4D0B",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "F35C557C6F5F17437598B258B78C58C6BED5",
+                "expanded": true
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "end",
+                    "target": "activeContext"
+                },
+                "indent": 0,
+                "uid": "01198FE95FF633491A39B2126B5E3BDA9359"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "ไม่แสดงผล"
+                },
+                "indent": 0,
+                "uid": "9059ABB51DB7F44EA3592FE02B3FAA7FD949"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "ไม่แสดงผล"
+                    },
+                    "position": 0,
+                    "characterId": "4A7D5EC17353564C3E39DA52EBDE615E4D0B",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "96FE927711C0A743BC2BBE615AF673E1E3F3",
+                "expanded": true
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "end",
+                    "target": "activeContext"
+                },
+                "indent": 0,
+                "uid": "7D8EAE878362744D5E1B9A3762656E92560C"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "ลด"
+                },
+                "indent": 0,
+                "uid": "91850C036122784FCB487D94242BDD32508E"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Emma",
+                        "index": 20,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 2,
+                    "source": 0,
+                    "sourceValue": 10,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "608EF75231E6604EAF4A5BD1CA6F46073E63"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "ลด"
+                    },
+                    "position": 0,
+                    "characterId": "4A7D5EC17353564C3E39DA52EBDE615E4D0B",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "AD7603EF8587C24F4D891EA8168A0C17EB41",
+                "expanded": true
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "end",
+                    "target": "activeContext"
+                },
+                "indent": 0,
+                "uid": "6C75615D312210487C8ACA0726378BCBB48E"
+            },
+            {
+                "id": "gs.Label",
+                "params": {
+                    "name": "ปลดล็อก"
+                },
+                "indent": 0,
+                "uid": "8FE0D9623517C24EF40AA7F96A433F5C30A8"
+            },
+            {
+                "id": "gs.ShowMessage",
+                "params": {
+                    "waitForCompletion": 1,
+                    "duration": 15,
+                    "expressionId": null,
+                    "custom": {
+                        "object": {
+                            "x": 0,
+                            "y": 0,
+                            "size": {
+                                "width": 300,
+                                "height": 100
+                            }
+                        }
+                    },
+                    "message": {
+                        "lcId": null,
+                        "defaultText": "ปลดล็อก"
+                    },
+                    "position": 0,
+                    "characterId": "4A7D5EC17353564C3E39DA52EBDE615E4D0B",
+                    "partial": 0,
+                    "fieldFlags": {
+                        "duration": 1
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "09719FBF475DC644AC191998909B135BD1BE",
+                "expanded": true
+            },
+            {
+                "id": "gs.JumpToLabel",
+                "params": {
+                    "name": "end",
+                    "target": "activeContext"
+                },
+                "indent": 0,
+                "uid": "6C9647937A18984C912A1108EE1254F5B429"
+            }
+        ],
+        "livePreviewDisabled": false,
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "listVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

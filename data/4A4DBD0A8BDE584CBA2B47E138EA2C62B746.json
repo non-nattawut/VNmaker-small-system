@@ -1,0 +1,689 @@
+{
+    "uid": "4A4DBD0A8BDE584CBA2B47E138EA2C62B746",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "_check",
+        "type": "vn.scene",
+        "parentId": "3C0AC4B219F437413B496B930F62496F53FD",
+        "chapterUid": "3C0AC4B219F437413B496B930F62496F53FD",
+        "order": 0,
+        "localizableStrings": {},
+        "commands": [
+            {
+                "id": "vn.ChangeBackground",
+                "params": {
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "graphic": {
+                        "name": "StudentdormitoryInside_Night.png",
+                        "folderPath": "Graphics/Backgrounds/School",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    },
+                    "layer": 0,
+                    "duration": 0,
+                    "waitForCompletion": 0,
+                    "blendMode": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "loopVertical": 0,
+                    "loopHorizontal": 0,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "origin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 1,
+                        "loopVertical": 1,
+                        "loopHorizontal": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "expanded": false
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 0,
+                    "source": 0,
+                    "sourceValue": 49,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "C977832D711A654EFC2BF804CCCEEB81A8C7"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Dance",
+                        "scope": 1,
+                        "index": 1,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 0,
+                    "source": 0,
+                    "sourceValue": 50,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "2D4EE087946C6741F0785F23F1159D9AFBAB"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Rap",
+                        "index": 2,
+                        "scope": 1,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 0,
+                    "source": 0,
+                    "sourceValue": 60,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "E9394AD5717BC548613888F6AE105171B9D9",
+                "expanded": false
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Pass subject (3 = pass)",
+                        "index": 4,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 0,
+                    "source": 0,
+                    "sourceValue": 0,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "772A5CAA8D10A347875A7B54AE9E4DF334BF",
+                "expanded": false
+            },
+            {
+                "id": "vn.Choice",
+                "params": {
+                    "action": {
+                        "type": 0,
+                        "bindValue": 0,
+                        "bindValueVariable": {
+                            "scope": 0,
+                            "index": 0
+                        },
+                        "commonEventId": 0,
+                        "label": "",
+                        "switch": {
+                            "scope": 1,
+                            "index": 0
+                        },
+                        "scene": null
+                    },
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "ตรวจผลสอบ"
+                    },
+                    "label": "",
+                    "enabled": 1,
+                    "positionType": 0,
+                    "box": {
+                        "x": 0,
+                        "y": 0,
+                        "size": {
+                            "width": 300,
+                            "height": 50
+                        }
+                    },
+                    "defaultChoice": 0
+                },
+                "indent": 0,
+                "uid": "53BDC66F9B50F340C5496000E5C1EF3F6FF3"
+            },
+            {
+                "id": "vn.ShowChoices",
+                "params": {},
+                "indent": 0
+            },
+            {
+                "id": "gs.ShowText",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "scene"
+                    },
+                    "predefinedPositionId": 8,
+                    "positionType": 0,
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "blendMode": 0,
+                    "positionOrigin": 0,
+                    "origin": 0,
+                    "zOrder": 0,
+                    "text": {
+                        "lcId": null,
+                        "defaultText": "Score Table\nSing {GN:0001}\nDance {GN:0002}\nRap {GN:0003}"
+                    },
+                    "position": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "origin": 1,
+                        "positionOrigin": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "viewport.type": 0
+                    },
+                    "expressions": [],
+                    "animations": []
+                },
+                "indent": 0,
+                "uid": "BE2A314489C4104CF628CBF30E34D4D816A8",
+                "expanded": false
+            },
+            {
+                "id": "gs.WaitForInput",
+                "params": {
+                    "key": 1,
+                    "state": 1,
+                    "inputSession": 0,
+                    "action": {
+                        "type": 0,
+                        "data": {
+                            "label": "$$C50EA7EF0592134BEF59E098BD7961D34EB4",
+                            "commonEventId": 0
+                        }
+                    }
+                },
+                "indent": 0,
+                "uid": "775125FC6EDB5346103AE0737E5BD982CB27"
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "Sing",
+                        "scope": 1,
+                        "index": 0,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValue": 50,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 3,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "5144A9961695704C897ABD85AD2A6598B591"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Pass subject (3 = pass)",
+                        "index": 4,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 1,
+                    "source": 0,
+                    "sourceValue": 1,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "5921BB3B1907B94A771936D602C5CC073D54"
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "Dance",
+                        "scope": 1,
+                        "index": 1,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValue": 50,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 3,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "2245122A6DDF1741559AE48504488E48275A"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Pass subject (3 = pass)",
+                        "index": 4,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 1,
+                    "source": 0,
+                    "sourceValue": 1,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "80D568EC28EC7240D50941098A13857E9284",
+                "expanded": false
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "Rap",
+                        "index": 2,
+                        "scope": 1,
+                        "changed": true,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "numberValue": 50,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 3,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "8FE5F8D56711324037183B781103392BEDA8"
+            },
+            {
+                "id": "gs.ChangeDecimalVariables",
+                "params": {
+                    "roundMethod": 0,
+                    "target": 0,
+                    "targetVariable": {
+                        "name": "Pass subject (3 = pass)",
+                        "index": 4,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "targetScope": 0,
+                    "targetRange": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "targetReferenceDomain": "com.degica.vnm.default",
+                    "targetReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "operation": 1,
+                    "source": 0,
+                    "sourceValue": 1,
+                    "sourceRandom": {
+                        "start": 0,
+                        "end": 0
+                    },
+                    "sourceScope": 0,
+                    "sourceVariable": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "sourceReferenceDomain": "com.degica.vnm.default",
+                    "sourceReference": {
+                        "index": 0,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default"
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "421E6DE9290BA6409E58A23386D2653589FE"
+            },
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "Pass subject (3 = pass)",
+                        "index": 4,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 3,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 4,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "2BEFF51018B87746ED094103F1F74A48AD3F"
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "3E967C657F4668436E48D847A02DC5FA0221",
+                        "name": "Game Over"
+                    },
+                    "savePrevious": 1,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "6CDBC7BA47054141A31881511CBD4D363E38"
+            },
+            {
+                "id": "gs.ConditionElse",
+                "params": {},
+                "indent": 0,
+                "uid": "BBD5B1376CDB004F6A69A93211B0D2B48BB3"
+            },
+            {
+                "id": "vn.ChangeScene",
+                "params": {
+                    "scene": {
+                        "uid": "92F2B63508065240D218384259A68790B437",
+                        "name": "Test Pass"
+                    },
+                    "savePrevious": 1,
+                    "erasePictures": 0,
+                    "eraseTexts": 0,
+                    "eraseVideos": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 1,
+                "uid": "C11A48F13CEE6144A1582D58FED197AA9A3B"
+            }
+        ],
+        "livePreviewDisabled": false,
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

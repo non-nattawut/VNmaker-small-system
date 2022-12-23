@@ -1,0 +1,26 @@
+{
+    "uid": "DDCDFC8E2F7F54423B88AD07CE90B3725AF2",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "type": "vn.chapter",
+        "name": "Study",
+        "commands": [
+            {
+                "id": "vn.Chapter",
+                "params": {
+                    "name": "Study",
+                    "description": ""
+                },
+                "indent": 0
+            }
+        ],
+        "order": 5
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

@@ -1,0 +1,763 @@
+{
+    "uid": "0F65FDA632AFF84BF10B3441826E0F75C518",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Normal",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "id": "0F65FDA632AFF84BF10B3441826E0F75C518",
+        "isFolder": false,
+        "parentId": "9106D93E184EA8466429D8C35C54018EB730",
+        "data": {
+            "idleTime": {
+                "start": 0,
+                "end": 0
+            },
+            "name": "Normal",
+            "idleSpeed": 100,
+            "idle": [
+                {
+                    "resource": {
+                        "name": "frame0000.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0001.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0002.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0003.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0004.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0005.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0006.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0007.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0008.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0009.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0010.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0011.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0012.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0013.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0014.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0015.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0016.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0017.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0018.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0019.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0020.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0021.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0022.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0023.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0024.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0025.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0026.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0027.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0028.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0029.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0030.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0031.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0032.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0033.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0034.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0035.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0036.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0037.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0038.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0039.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0040.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0041.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0042.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0043.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0044.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0045.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0046.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0047.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0048.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0049.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0050.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0051.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0052.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0053.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0054.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0055.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0056.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0057.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0058.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0059.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0060.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0061.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0062.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0063.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0064.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0065.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0066.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0067.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0068.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0069.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0070.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0071.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                },
+                {
+                    "resource": {
+                        "name": "frame0072.png",
+                        "folderPath": "Graphics/Characters/_Whiskey/normal",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": null
+                    }
+                }
+            ],
+            "talkingSpeed": 100,
+            "talking": [],
+            "index": "0F65FDA632AFF84BF10B3441826E0F75C518"
+        },
+        "order": 0
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

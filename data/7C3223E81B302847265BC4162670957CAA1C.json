@@ -1,0 +1,77 @@
+{
+    "uid": "7C3223E81B302847265BC4162670957CAA1C",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Set Emma Relation",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "7C3223E81B302847265BC4162670957CAA1C",
+        "isFolder": false,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Set Emma Relation",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [
+                {
+                    "label": "Relation",
+                    "type": 1,
+                    "numberVariable": {
+                        "name": "Emma",
+                        "index": 20,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValueType": "number",
+                    "numberList": {
+                        "entries": []
+                    },
+                    "stringValueLocalizable": true
+                }
+            ],
+            "commands": [],
+            "index": "7C3223E81B302847265BC4162670957CAA1C",
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "listVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

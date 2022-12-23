@@ -1,0 +1,678 @@
+{
+    "uid": "CB021A278B76A24F0C8953C628618EB0D02A",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Clock Adjust",
+        "type": "data_record",
+        "category": "commonEvents",
+        "id": "CB021A278B76A24F0C8953C628618EB0D02A",
+        "isFolder": false,
+        "parentId": "CE95331D637601407D894E78DDAAABA7A602",
+        "data": {
+            "name": "Clock Adjust",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [
+                {
+                    "label": "Minutes to add",
+                    "type": 1,
+                    "numberVariable": {
+                        "name": "Add Minutes",
+                        "index": 10,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValueType": "number",
+                    "stringValueLocalizable": true
+                }
+            ],
+            "commands": [
+                {
+                    "id": "gs.ChangeNumberVariables",
+                    "params": {
+                        "target": 0,
+                        "targetVariable": {
+                            "name": "Minutes (00-59)",
+                            "index": 9,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetScope": 0,
+                        "targetRange": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "operation": 1,
+                        "source": 0,
+                        "sourceValue": {
+                            "name": "Add Minutes",
+                            "index": 10,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "sourceRandom": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "sourceScope": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "sourceReferenceDomain": "com.degica.vnm.default",
+                        "sourceReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "12387BF12068884AAC59C41709F3EED731A8"
+                },
+                {
+                    "id": "gs.Condition",
+                    "params": {
+                        "variable": {
+                            "name": "Minutes (00-59)",
+                            "index": 9,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "numberValue": 60,
+                        "textValue": "",
+                        "switchValue": 0,
+                        "valueType": 0,
+                        "operation": 3,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0
+                },
+                {
+                    "id": "gs.Comment",
+                    "params": {
+                        "text": "Minute Calculate"
+                    },
+                    "indent": 1,
+                    "uid": "F89F32969E72844C0349DD170A7B4D7166DE",
+                    "expanded": true
+                },
+                {
+                    "id": "gs.Comment",
+                    "params": {
+                        "text": "Set"
+                    },
+                    "indent": 1,
+                    "uid": "421318329AFF82466E1B4C62A3467F48A517",
+                    "expanded": true
+                },
+                {
+                    "id": "gs.ChangeNumberVariables",
+                    "params": {
+                        "target": 0,
+                        "targetVariable": {
+                            "name": "temp hours",
+                            "index": 11,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetScope": 0,
+                        "targetRange": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "operation": 0,
+                        "source": 0,
+                        "sourceValue": {
+                            "name": "Minutes (00-59)",
+                            "index": 9,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "sourceRandom": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "sourceScope": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "sourceReferenceDomain": "com.degica.vnm.default",
+                        "sourceReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "623DA5533DB56548AA6BF08775A6A41C285E"
+                },
+                {
+                    "id": "gs.ChangeNumberVariables",
+                    "params": {
+                        "target": 0,
+                        "targetVariable": {
+                            "name": "temp minutes",
+                            "index": 12,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetScope": 0,
+                        "targetRange": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "operation": 0,
+                        "source": 0,
+                        "sourceValue": {
+                            "name": "Minutes (00-59)",
+                            "index": 9,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "sourceRandom": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "sourceScope": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "sourceReferenceDomain": "com.degica.vnm.default",
+                        "sourceReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "689184C258C2354FBB59E428E976B3AC7F94"
+                },
+                {
+                    "id": "gs.Comment",
+                    "params": {
+                        "text": "Calculate"
+                    },
+                    "indent": 1,
+                    "uid": "7EC2A9B53DA9B845346B5AE35CFBE2A1073E",
+                    "expanded": true
+                },
+                {
+                    "id": "gs.ChangeNumberVariables",
+                    "params": {
+                        "target": 0,
+                        "targetVariable": {
+                            "name": "temp hours",
+                            "index": 11,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetScope": 0,
+                        "targetRange": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "operation": 4,
+                        "source": 0,
+                        "sourceValue": 60,
+                        "sourceRandom": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "sourceScope": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "sourceReferenceDomain": "com.degica.vnm.default",
+                        "sourceReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "A54EBDE50F9A88460B885B20048CC25A31E6"
+                },
+                {
+                    "id": "gs.ChangeNumberVariables",
+                    "params": {
+                        "target": 0,
+                        "targetVariable": {
+                            "name": "temp minutes",
+                            "index": 12,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetScope": 0,
+                        "targetRange": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "operation": 5,
+                        "source": 0,
+                        "sourceValue": 60,
+                        "sourceRandom": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "sourceScope": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "sourceReferenceDomain": "com.degica.vnm.default",
+                        "sourceReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "FC13CEB96BC3904ACF6A7B483C25F0063C92"
+                },
+                {
+                    "id": "gs.Comment",
+                    "params": {
+                        "text": "adjust to clock"
+                    },
+                    "indent": 1,
+                    "uid": "481A6E58632037423908EE5914E66707CD6C",
+                    "expanded": true
+                },
+                {
+                    "id": "gs.ChangeNumberVariables",
+                    "params": {
+                        "target": 0,
+                        "targetVariable": {
+                            "name": "Hours (00-23)",
+                            "index": 8,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetScope": 0,
+                        "targetRange": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "operation": 1,
+                        "source": 0,
+                        "sourceValue": {
+                            "name": "temp hours",
+                            "index": 11,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "sourceRandom": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "sourceScope": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "sourceReferenceDomain": "com.degica.vnm.default",
+                        "sourceReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "3D6D0E2D3834F54C1E4B4CB73BC9D11AC3BF"
+                },
+                {
+                    "id": "gs.ChangeNumberVariables",
+                    "params": {
+                        "target": 0,
+                        "targetVariable": {
+                            "name": "Minutes (00-59)",
+                            "index": 9,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetScope": 0,
+                        "targetRange": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "operation": 0,
+                        "source": 0,
+                        "sourceValue": {
+                            "name": "temp minutes",
+                            "index": 12,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "sourceRandom": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "sourceScope": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "sourceReferenceDomain": "com.degica.vnm.default",
+                        "sourceReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "2E23D59B89FF94428D1AE4E60D417C86F7F2"
+                },
+                {
+                    "id": "gs.Condition",
+                    "params": {
+                        "variable": {
+                            "name": "Hours (00-23)",
+                            "index": 8,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "numberValue": 24,
+                        "textValue": "",
+                        "switchValue": 0,
+                        "valueType": 0,
+                        "operation": 3,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "78F22F6341693441F449128511DF2CB5D2BD"
+                },
+                {
+                    "id": "gs.ChangeNumberVariables",
+                    "params": {
+                        "target": 0,
+                        "targetVariable": {
+                            "name": "temp hours",
+                            "index": 11,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetScope": 0,
+                        "targetRange": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "operation": 0,
+                        "source": 0,
+                        "sourceValue": {
+                            "name": "Hours (00-23)",
+                            "index": 8,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "sourceRandom": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "sourceScope": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "sourceReferenceDomain": "com.degica.vnm.default",
+                        "sourceReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "51770B6E83A9A941E87A6B8679D5C98BF9D9"
+                },
+                {
+                    "id": "gs.ChangeNumberVariables",
+                    "params": {
+                        "target": 0,
+                        "targetVariable": {
+                            "name": "temp hours",
+                            "index": 11,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetScope": 0,
+                        "targetRange": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "operation": 2,
+                        "source": 0,
+                        "sourceValue": 24,
+                        "sourceRandom": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "sourceScope": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "sourceReferenceDomain": "com.degica.vnm.default",
+                        "sourceReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "E733307A3F0DA549979A1351D85DA342599B"
+                },
+                {
+                    "id": "gs.ChangeNumberVariables",
+                    "params": {
+                        "target": 0,
+                        "targetVariable": {
+                            "name": "Hours (00-23)",
+                            "index": 8,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "targetScope": 0,
+                        "targetRange": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "targetReferenceDomain": "com.degica.vnm.default",
+                        "targetReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "operation": 0,
+                        "source": 0,
+                        "sourceValue": {
+                            "name": "temp hours",
+                            "index": 11,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "sourceRandom": {
+                            "start": 0,
+                            "end": 0
+                        },
+                        "sourceScope": 0,
+                        "sourceVariable": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "sourceReferenceDomain": "com.degica.vnm.default",
+                        "sourceReference": {
+                            "index": 0,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default"
+                        },
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "1F466E47451C2746E85A850776BBC8565437"
+                }
+            ],
+            "index": "CB021A278B76A24F0C8953C628618EB0D02A",
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0,
+                    "domain": "com.degica.vnm.default"
+                }
+            ],
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "listVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "order": 0,
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

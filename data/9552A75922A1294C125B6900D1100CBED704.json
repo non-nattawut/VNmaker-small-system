@@ -1,0 +1,26 @@
+{
+    "uid": "9552A75922A1294C125B6900D1100CBED704",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Talk & Choice Check",
+        "type": "vn.chapter",
+        "order": 4,
+        "commands": [
+            {
+                "id": "vn.Chapter",
+                "params": {
+                    "name": "Talk & Choice Check",
+                    "description": ""
+                },
+                "indent": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

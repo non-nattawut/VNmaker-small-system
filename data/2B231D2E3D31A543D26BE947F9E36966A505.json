@@ -1,0 +1,744 @@
+{
+    "uid": "2B231D2E3D31A543D26BE947F9E36966A505",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Time Check",
+        "type": "vn.scene",
+        "parentId": "33F2BB319DDDF24DD85BE8A408D6518E1226",
+        "chapterUid": "33F2BB319DDDF24DD85BE8A408D6518E1226",
+        "order": 4,
+        "livePreviewDisabled": false,
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "stringVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "commands": [
+            {
+                "id": "gs.Condition",
+                "params": {
+                    "variable": {
+                        "name": "Time",
+                        "index": 6,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 4,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0
+            },
+            {
+                "id": "gs.ErasePicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "indent": 1,
+                "uid": "DAF54101794F9144005B54F22FBB8D1A72FD"
+            },
+            {
+                "id": "gs.ShowPicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "size": {
+                        "type": 0,
+                        "width": 100,
+                        "height": 100
+                    },
+                    "visual": {
+                        "type": 0,
+                        "quad": {
+                            "color": {
+                                "red": 255,
+                                "green": 255,
+                                "blue": 255,
+                                "alpha": 255
+                            }
+                        },
+                        "frame": {
+                            "thickness": 16,
+                            "cornerSize": 16
+                        },
+                        "threePartImage": {
+                            "orientation": 0
+                        }
+                    },
+                    "predefinedPositionId": 5,
+                    "number": 0,
+                    "blendMode": 0,
+                    "zOrder": 0,
+                    "duration": 0,
+                    "origin": 0,
+                    "waitForCompletion": 1,
+                    "positionType": 2,
+                    "position": {
+                        "x": 590,
+                        "y": 550
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "origin": 1,
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "visual.type": 1,
+                        "visual.frame.thickness": 1,
+                        "visual.frame.cornerSize": 1,
+                        "visual.threePartImage.orientation": 1,
+                        "visual.quad.color": 1,
+                        "size.type": 1,
+                        "size.width": 1,
+                        "size.height": 1,
+                        "viewport.type": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "graphic": {
+                        "name": "timer_100.png",
+                        "folderPath": "other/timer",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    }
+                },
+                "indent": 1,
+                "uid": "967D2B8D3600F340C088FD69E86A92D88CE3",
+                "expanded": false
+            },
+            {
+                "id": "gs.ConditionElseIf",
+                "params": {
+                    "variable": {
+                        "name": "Time",
+                        "index": 6,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 3,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "8791D7CB7A06054791581D240C3A4BE7B80E"
+            },
+            {
+                "id": "gs.ErasePicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "indent": 1,
+                "uid": "6F5271105FC4D849C97B7098C1425287FE22"
+            },
+            {
+                "id": "gs.ShowPicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "size": {
+                        "type": 0,
+                        "width": 100,
+                        "height": 100
+                    },
+                    "visual": {
+                        "type": 0,
+                        "quad": {
+                            "color": {
+                                "red": 255,
+                                "green": 255,
+                                "blue": 255,
+                                "alpha": 255
+                            }
+                        },
+                        "frame": {
+                            "thickness": 16,
+                            "cornerSize": 16
+                        },
+                        "threePartImage": {
+                            "orientation": 0
+                        }
+                    },
+                    "predefinedPositionId": 8,
+                    "number": 0,
+                    "blendMode": 0,
+                    "zOrder": 0,
+                    "duration": 0,
+                    "origin": 0,
+                    "waitForCompletion": 1,
+                    "positionType": 2,
+                    "position": {
+                        "x": 590,
+                        "y": 550
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "origin": 1,
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "visual.type": 1,
+                        "visual.frame.thickness": 1,
+                        "visual.frame.cornerSize": 1,
+                        "visual.threePartImage.orientation": 1,
+                        "visual.quad.color": 1,
+                        "size.type": 1,
+                        "size.width": 1,
+                        "size.height": 1,
+                        "viewport.type": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "graphic": {
+                        "name": "timer_CW_75.png",
+                        "folderPath": "other/timer",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    }
+                },
+                "indent": 1,
+                "uid": "7CA3A9C524A1064366787D35B70082D46227",
+                "expanded": false
+            },
+            {
+                "id": "gs.ConditionElseIf",
+                "params": {
+                    "variable": {
+                        "name": "Time",
+                        "index": 6,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 2,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "61EB1B969930C74FB318E3A4B0027739880A"
+            },
+            {
+                "id": "gs.ErasePicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "indent": 1,
+                "uid": "057287FA6F9F6045016896D0D33FEC483448"
+            },
+            {
+                "id": "gs.ShowPicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "size": {
+                        "type": 0,
+                        "width": 100,
+                        "height": 100
+                    },
+                    "visual": {
+                        "type": 0,
+                        "quad": {
+                            "color": {
+                                "red": 255,
+                                "green": 255,
+                                "blue": 255,
+                                "alpha": 255
+                            }
+                        },
+                        "frame": {
+                            "thickness": 16,
+                            "cornerSize": 16
+                        },
+                        "threePartImage": {
+                            "orientation": 0
+                        }
+                    },
+                    "predefinedPositionId": 8,
+                    "number": 0,
+                    "blendMode": 0,
+                    "zOrder": 0,
+                    "duration": 0,
+                    "origin": 0,
+                    "waitForCompletion": 1,
+                    "positionType": 2,
+                    "position": {
+                        "x": 590,
+                        "y": 550
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "origin": 1,
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "visual.type": 1,
+                        "visual.frame.thickness": 1,
+                        "visual.frame.cornerSize": 1,
+                        "visual.threePartImage.orientation": 1,
+                        "visual.quad.color": 1,
+                        "size.type": 1,
+                        "size.width": 1,
+                        "size.height": 1,
+                        "viewport.type": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "graphic": {
+                        "name": "timer_CW_50.png",
+                        "folderPath": "other/timer",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    }
+                },
+                "indent": 1,
+                "uid": "F062525D19A69246A488D8D8BC7FB8D6C687",
+                "expanded": false
+            },
+            {
+                "id": "gs.ConditionElseIf",
+                "params": {
+                    "variable": {
+                        "name": "Time",
+                        "index": 6,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 1,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "2A9B205B581E91499798C034DB4A621F696C"
+            },
+            {
+                "id": "gs.ErasePicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "indent": 1,
+                "uid": "DB82BE2990ED714C218B3C280E11081E1A34"
+            },
+            {
+                "id": "gs.ShowPicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "size": {
+                        "type": 0,
+                        "width": 100,
+                        "height": 100
+                    },
+                    "visual": {
+                        "type": 0,
+                        "quad": {
+                            "color": {
+                                "red": 255,
+                                "green": 255,
+                                "blue": 255,
+                                "alpha": 255
+                            }
+                        },
+                        "frame": {
+                            "thickness": 16,
+                            "cornerSize": 16
+                        },
+                        "threePartImage": {
+                            "orientation": 0
+                        }
+                    },
+                    "predefinedPositionId": 8,
+                    "number": 0,
+                    "blendMode": 0,
+                    "zOrder": 0,
+                    "duration": 0,
+                    "origin": 0,
+                    "waitForCompletion": 1,
+                    "positionType": 2,
+                    "position": {
+                        "x": 590,
+                        "y": 550
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "origin": 1,
+                        "duration": 1,
+                        "easing.type": 1,
+                        "animation.type": 1,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "visual.type": 1,
+                        "visual.frame.thickness": 1,
+                        "visual.frame.cornerSize": 1,
+                        "visual.threePartImage.orientation": 1,
+                        "visual.quad.color": 1,
+                        "size.type": 1,
+                        "size.width": 1,
+                        "size.height": 1,
+                        "viewport.type": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "graphic": {
+                        "name": "timer_CW_25.png",
+                        "folderPath": "other/timer",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    }
+                },
+                "indent": 1,
+                "uid": "35580FBF8CB5554E4F2B6860C5CB1798FE8F",
+                "expanded": false
+            },
+            {
+                "id": "gs.ConditionElseIf",
+                "params": {
+                    "variable": {
+                        "name": "Time",
+                        "index": 6,
+                        "scope": 1,
+                        "domain": "com.degica.vnm.default",
+                        "changed": true
+                    },
+                    "numberValue": 0,
+                    "textValue": "",
+                    "switchValue": 0,
+                    "valueType": 0,
+                    "operation": 0,
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    }
+                },
+                "indent": 0,
+                "uid": "247D1E9D2EC6E149E13BC7942BC25EB86E0C"
+            },
+            {
+                "id": "gs.ErasePicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "number": 0,
+                    "duration": 0,
+                    "waitForCompletion": 1,
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "duration": 1
+                    }
+                },
+                "indent": 1,
+                "uid": "856998747C6CC541CC691886F1B0D2704615"
+            },
+            {
+                "id": "gs.ShowPicture",
+                "params": {
+                    "numberDomain": "com.degica.vnm.default",
+                    "viewport": {
+                        "type": "ui"
+                    },
+                    "size": {
+                        "type": 0,
+                        "width": 100,
+                        "height": 100
+                    },
+                    "visual": {
+                        "type": 0,
+                        "quad": {
+                            "color": {
+                                "red": 255,
+                                "green": 255,
+                                "blue": 255,
+                                "alpha": 255
+                            }
+                        },
+                        "frame": {
+                            "thickness": 16,
+                            "cornerSize": 16
+                        },
+                        "threePartImage": {
+                            "orientation": 0
+                        }
+                    },
+                    "predefinedPositionId": 5,
+                    "number": 0,
+                    "blendMode": 0,
+                    "zOrder": 0,
+                    "duration": 0,
+                    "origin": 0,
+                    "waitForCompletion": 1,
+                    "positionType": 2,
+                    "position": {
+                        "x": 590,
+                        "y": 550
+                    },
+                    "easing": {
+                        "type": 0,
+                        "inOut": 1
+                    },
+                    "animation": {
+                        "type": 1,
+                        "movement": 0,
+                        "mask": {
+                            "graphic": null,
+                            "vague": 30
+                        }
+                    },
+                    "fieldFlags": {
+                        "origin": 0,
+                        "duration": 1,
+                        "easing.type": 0,
+                        "animation.type": 0,
+                        "zOrder": 1,
+                        "blendMode": 1,
+                        "visual.type": 1,
+                        "visual.frame.thickness": 1,
+                        "visual.frame.cornerSize": 1,
+                        "visual.threePartImage.orientation": 1,
+                        "visual.quad.color": 1,
+                        "size.type": 1,
+                        "size.width": 1,
+                        "size.height": 1,
+                        "viewport.type": 1
+                    },
+                    "previewBackground": {
+                        "name": "$live_preview_snapshot"
+                    },
+                    "graphic": {
+                        "name": "timer_0.png",
+                        "folderPath": "other/timer",
+                        "hue": 0,
+                        "opacity": 255,
+                        "blending": 0,
+                        "tone": {
+                            "red": 0,
+                            "green": 0,
+                            "blue": 0,
+                            "grey": 0
+                        }
+                    }
+                },
+                "indent": 1,
+                "uid": "918AB0235ACB2744BC0A5DB8376D148419DB",
+                "expanded": false
+            }
+        ],
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

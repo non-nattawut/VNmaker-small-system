@@ -1,0 +1,92 @@
+{
+    "uid": "5C12D98468E824462C2BE512B377816F759B",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "_main",
+        "type": "vn.scene",
+        "parentId": "2B3DD7355E4B55404C5B7053ABA2E99E849A",
+        "chapterUid": "2B3DD7355E4B55404C5B7053ABA2E99E849A",
+        "order": 0,
+        "commands": [
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "25D6C1F276CB8843157937178F2E2A8F39AE",
+                    "parameters": {
+                        "values": [
+                            19,
+                            0
+                        ]
+                    }
+                },
+                "indent": 0,
+                "uid": "432DB7EE1D36B74DAB8B4E07AE5F3AB48AE9"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "424A94A18A70114BDC0B9A9915814CDC477B",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "CB021A278B76A24F0C8953C628618EB0D02A",
+                    "parameters": {
+                        "values": [
+                            1
+                        ]
+                    }
+                },
+                "indent": 0,
+                "uid": "1604847F566028407928A5F750E36D9022AC"
+            },
+            {
+                "id": "gs.CallCommonEvent",
+                "params": {
+                    "commonEventId": "424A94A18A70114BDC0B9A9915814CDC477B",
+                    "parameters": {
+                        "values": []
+                    }
+                },
+                "indent": 0,
+                "uid": "89EACF263F89D24B356B513684E9F2A468A5"
+            }
+        ],
+        "livePreviewDisabled": false,
+        "booleanVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "listVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ],
+        "numberVariables": [
+            {
+                "name": "",
+                "index": 0,
+                "scope": 0
+            }
+        ]
+    },
+    "summary": [
+        "name",
+        "type",
+        "parentId",
+        "chapterUid",
+        "order"
+    ],
+    "externalItems": []
+}

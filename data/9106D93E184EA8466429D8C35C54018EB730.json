@@ -1,0 +1,23 @@
+{
+    "uid": "9106D93E184EA8466429D8C35C54018EB730",
+    "isLoaded": true,
+    "lastModificationTime": null,
+    "items": {
+        "name": "Whiskey",
+        "type": "data_record",
+        "category": "characterExpressions",
+        "isFolder": true,
+        "parentId": "ROOT",
+        "data": {
+            "name": "Whiskey",
+            "isFolder": true
+        },
+        "order": 1
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}

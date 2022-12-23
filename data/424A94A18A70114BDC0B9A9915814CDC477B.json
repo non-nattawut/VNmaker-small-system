@@ -1,0 +1,424 @@
+{
+    "uid": "424A94A18A70114BDC0B9A9915814CDC477B",
+    "isLoaded": true,
+    "lastModificationTime": 0,
+    "items": {
+        "name": "Clock Erase & Show",
+        "type": "data_record",
+        "order": 1,
+        "category": "commonEvents",
+        "id": "424A94A18A70114BDC0B9A9915814CDC477B",
+        "isFolder": false,
+        "parentId": "CE95331D637601407D894E78DDAAABA7A602",
+        "data": {
+            "name": "Clock Erase & Show",
+            "startCondition": 0,
+            "conditionEnabled": false,
+            "parallel": false,
+            "autoPreload": true,
+            "singleInstance": true,
+            "inline": false,
+            "parameters": [],
+            "commands": [
+                {
+                    "id": "gs.EraseText",
+                    "params": {
+                        "numberDomain": "com.degica.vnm.default",
+                        "number": 0,
+                        "duration": 0,
+                        "waitForCompletion": 1,
+                        "easing": {
+                            "type": 0,
+                            "inOut": 1
+                        },
+                        "animation": {
+                            "type": 1,
+                            "movement": 0,
+                            "mask": {
+                                "graphic": null,
+                                "vague": 30
+                            }
+                        },
+                        "fieldFlags": {
+                            "duration": 1
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "B892EC6D9D5A224E756ABA16258D2EF46EEF"
+                },
+                {
+                    "id": "gs.Condition",
+                    "params": {
+                        "variable": {
+                            "name": "Hours (00-23)",
+                            "index": 8,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "numberValue": 10,
+                        "textValue": "",
+                        "switchValue": 0,
+                        "valueType": 0,
+                        "operation": 3,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "73D7BCEC0BDE6547D46AFE916CCF393FD587"
+                },
+                {
+                    "id": "gs.Condition",
+                    "params": {
+                        "variable": {
+                            "name": "Minutes (00-59)",
+                            "index": 9,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "numberValue": 10,
+                        "textValue": "",
+                        "switchValue": 0,
+                        "valueType": 0,
+                        "operation": 3,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "B4EBF3D24B28894FDC8BBDC7723312216466"
+                },
+                {
+                    "id": "gs.ShowText",
+                    "params": {
+                        "numberDomain": "com.degica.vnm.default",
+                        "viewport": {
+                            "type": "ui"
+                        },
+                        "predefinedPositionId": 8,
+                        "positionType": 0,
+                        "number": 0,
+                        "duration": 0,
+                        "waitForCompletion": 0,
+                        "blendMode": 0,
+                        "positionOrigin": 0,
+                        "origin": 0,
+                        "zOrder": 0,
+                        "text": {
+                            "lcId": null,
+                            "defaultText": "{GN:9}:{GN:10}"
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "easing": {
+                            "type": 0,
+                            "inOut": 1
+                        },
+                        "animation": {
+                            "type": 1,
+                            "movement": 0,
+                            "mask": {
+                                "graphic": null,
+                                "vague": 30
+                            }
+                        },
+                        "fieldFlags": {
+                            "duration": 1,
+                            "easing.type": 1,
+                            "animation.type": 1,
+                            "origin": 1,
+                            "positionOrigin": 1,
+                            "zOrder": 1,
+                            "blendMode": 1,
+                            "viewport.type": 1
+                        },
+                        "expressions": [],
+                        "animations": []
+                    },
+                    "indent": 2,
+                    "expanded": false
+                },
+                {
+                    "id": "gs.ConditionElseIf",
+                    "params": {
+                        "variable": {
+                            "name": "Minutes (00-59)",
+                            "index": 9,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "numberValue": 9,
+                        "textValue": "",
+                        "switchValue": 0,
+                        "valueType": 0,
+                        "operation": 5,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "506FD55F4C281448A52AADA302EF5DD950E4"
+                },
+                {
+                    "id": "gs.ShowText",
+                    "params": {
+                        "numberDomain": "com.degica.vnm.default",
+                        "viewport": {
+                            "type": "ui"
+                        },
+                        "predefinedPositionId": 8,
+                        "positionType": 0,
+                        "number": 0,
+                        "duration": 0,
+                        "waitForCompletion": 0,
+                        "blendMode": 0,
+                        "positionOrigin": 0,
+                        "origin": 0,
+                        "zOrder": 0,
+                        "text": {
+                            "lcId": null,
+                            "defaultText": "{GN:9}:0{GN:10}"
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "easing": {
+                            "type": 0,
+                            "inOut": 1
+                        },
+                        "animation": {
+                            "type": 1,
+                            "movement": 0,
+                            "mask": {
+                                "graphic": null,
+                                "vague": 30
+                            }
+                        },
+                        "fieldFlags": {
+                            "duration": 1,
+                            "easing.type": 1,
+                            "animation.type": 1,
+                            "origin": 1,
+                            "positionOrigin": 1,
+                            "zOrder": 1,
+                            "blendMode": 1,
+                            "viewport.type": 1
+                        },
+                        "expressions": [],
+                        "animations": []
+                    },
+                    "indent": 2,
+                    "expanded": false,
+                    "uid": "99188EB2367585453D79C7332221C7A12AFF"
+                },
+                {
+                    "id": "gs.ConditionElseIf",
+                    "params": {
+                        "variable": {
+                            "name": "Hours (00-23)",
+                            "index": 8,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "numberValue": 9,
+                        "textValue": "",
+                        "switchValue": 0,
+                        "valueType": 0,
+                        "operation": 5,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 0,
+                    "uid": "3F0A74221B0411484878D055F3CCEA3CBCF1"
+                },
+                {
+                    "id": "gs.Condition",
+                    "params": {
+                        "variable": {
+                            "name": "Minutes (00-59)",
+                            "index": 9,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "numberValue": 10,
+                        "textValue": "",
+                        "switchValue": 0,
+                        "valueType": 0,
+                        "operation": 3,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "F7F98ECA51AAF64E5C5BFAD8BF6926E506A6"
+                },
+                {
+                    "id": "gs.ShowText",
+                    "params": {
+                        "numberDomain": "com.degica.vnm.default",
+                        "viewport": {
+                            "type": "ui"
+                        },
+                        "predefinedPositionId": 8,
+                        "positionType": 0,
+                        "number": 0,
+                        "duration": 0,
+                        "waitForCompletion": 0,
+                        "blendMode": 0,
+                        "positionOrigin": 0,
+                        "origin": 0,
+                        "zOrder": 0,
+                        "text": {
+                            "lcId": null,
+                            "defaultText": "0{GN:9}:{GN:10}"
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "easing": {
+                            "type": 0,
+                            "inOut": 1
+                        },
+                        "animation": {
+                            "type": 1,
+                            "movement": 0,
+                            "mask": {
+                                "graphic": null,
+                                "vague": 30
+                            }
+                        },
+                        "fieldFlags": {
+                            "duration": 1,
+                            "easing.type": 1,
+                            "animation.type": 1,
+                            "origin": 1,
+                            "positionOrigin": 1,
+                            "zOrder": 1,
+                            "blendMode": 1,
+                            "viewport.type": 1
+                        },
+                        "expressions": [],
+                        "animations": []
+                    },
+                    "indent": 2,
+                    "expanded": false,
+                    "uid": "8E00359B63657845B3784CA15C2A04915A1B"
+                },
+                {
+                    "id": "gs.ConditionElseIf",
+                    "params": {
+                        "variable": {
+                            "name": "Minutes (00-59)",
+                            "index": 9,
+                            "scope": 1,
+                            "domain": "com.degica.vnm.default",
+                            "changed": true
+                        },
+                        "numberValue": 9,
+                        "textValue": "",
+                        "switchValue": 0,
+                        "valueType": 0,
+                        "operation": 5,
+                        "previewBackground": {
+                            "name": "$live_preview_snapshot"
+                        }
+                    },
+                    "indent": 1,
+                    "uid": "0DAECF3B658C58486628CC54CDFB277E3A8E"
+                },
+                {
+                    "id": "gs.ShowText",
+                    "params": {
+                        "numberDomain": "com.degica.vnm.default",
+                        "viewport": {
+                            "type": "ui"
+                        },
+                        "predefinedPositionId": 8,
+                        "positionType": 0,
+                        "number": 0,
+                        "duration": 0,
+                        "waitForCompletion": 0,
+                        "blendMode": 0,
+                        "positionOrigin": 0,
+                        "origin": 0,
+                        "zOrder": 0,
+                        "text": {
+                            "lcId": null,
+                            "defaultText": "0{GN:9}:0{GN:10}"
+                        },
+                        "position": {
+                            "x": 0,
+                            "y": 0
+                        },
+                        "easing": {
+                            "type": 0,
+                            "inOut": 1
+                        },
+                        "animation": {
+                            "type": 1,
+                            "movement": 0,
+                            "mask": {
+                                "graphic": null,
+                                "vague": 30
+                            }
+                        },
+                        "fieldFlags": {
+                            "duration": 1,
+                            "easing.type": 1,
+                            "animation.type": 1,
+                            "origin": 1,
+                            "positionOrigin": 1,
+                            "zOrder": 1,
+                            "blendMode": 1,
+                            "viewport.type": 1
+                        },
+                        "expressions": [],
+                        "animations": []
+                    },
+                    "indent": 2,
+                    "expanded": false,
+                    "uid": "343F2A7C41482342AA4B36F55D6FEDF476B3"
+                }
+            ],
+            "index": "424A94A18A70114BDC0B9A9915814CDC477B",
+            "booleanVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "numberVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ],
+            "stringVariables": [
+                {
+                    "name": "",
+                    "index": 0,
+                    "scope": 0
+                }
+            ]
+        },
+        "localizableStrings": {}
+    },
+    "summary": [
+        "name",
+        "type",
+        "order"
+    ],
+    "externalItems": []
+}
